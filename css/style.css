@@ -1,0 +1,50 @@
+/*Шапка*/
+.main-header
+{
+    margin-bottom: 25px;
+}
+/*Навигация*/
+.list-navigation
+{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.list-navigation li
+{
+    margin-right: 50px;
+}
+.list-navigation a
+{
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+}
+.list-navigation a:hover,
+.list-navigation a:focus,
+.list-navigation a:active
+{
+    text-decoration: underline;
+}
+/*Поле формы*/
+.field-form
+{
+    width: 30%;
+}
+.form-clicker
+{
+    display: grid;
+    grid-row-gap: 5px;
+
+}
+.button-click
+{
+    width: 50%;
+    margin-left: 25%;
+}
+/*Страница ленты*/
+.feed-area
+{
+    border-style: dashed;
+    border-width: 1px;
+}
