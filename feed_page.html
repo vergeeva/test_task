@@ -5,7 +5,7 @@
     <title>Лента</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body class="main-body">
+<body class="main-body" onload=get_all_users()>
 <header class="main-header">
     <ul class="list-navigation">
         <li><a href="index.html">Главная страница</a></li>
@@ -15,9 +15,12 @@
 <main>
     <div class="feed-area">
         <ul class="list-of-users">
-            <li>22:10 11.11.2014 Василий кликнул 5 раз</li>
+            <li class="list-element">22:10 11.11.2014 Василий кликнул 5 раз</li>
         </ul>
     </div>
 </main>
+<script src = "js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
 </body>
 </html>
