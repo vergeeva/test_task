@@ -41,7 +41,7 @@ function client_click_on_form()
     {
         if (ValidMail(user_email))
         {
-            let url= `http://localhost:8000/api/users/user_clicked`
+            let url= `http://localhost:8000/api/users/user_clicked`;
             axios.post(url,
                 {
                     name: user_name,
@@ -51,6 +51,10 @@ function client_click_on_form()
                 .then(res => {
                     console.log(res);
                 })
+                .catch(function (error) {
+            console.log(error);
+            console.log(user_name, user_email);
+        });
             window.location.href = 'feed_page.html';
         }
         else
@@ -58,6 +62,4 @@ function client_click_on_form()
             alert("Неверный формат email");
         }
     }
-
-
 }

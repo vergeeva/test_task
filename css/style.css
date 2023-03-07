@@ -65,8 +65,8 @@
     color: black;
     text-decoration: none;
 }
-.label-button-click a:hover,.label-button-click a:focus,
-.label-button-click a:active
+.label-button-click span:hover,.label-button-click span:focus,
+.label-button-click span:active
 {
     background:darkgrey;
 }
