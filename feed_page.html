@@ -6,7 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="main-body" onload=get_all_users()>
-<header class="main-header">
+<header class="main-header" onload=get_all_users()>
     <ul class="list-navigation">
         <li><a href="index.html">Главная страница</a></li>
         <li><a href="#">Лента</a></li>
@@ -14,9 +14,8 @@
 </header>
 <main>
     <div class="feed-area">
-        <ul class="list-of-users">
-            <li class="list-element">22:10 11.11.2014 Василий кликнул 5 раз</li>
-        </ul>
+        <ol class="list-of-users">
+        </ol>
     </div>
 </main>
 <script src = "js/script.js"></script>
